@@ -25,7 +25,7 @@ favMovies = [
     },
 ]
 
-print(favMovies[0]["tytuł"])
-print(favMovies[1]["rok"])
-print(favMovies[2]["ocena"])
-print(favMovies[3]["opis"])
+print("Tytuł pierwszego filmu to: " + favMovies[0]["tytuł"])
+print("Rok premiery drugiego filmu to: " + str(favMovies[1]["rok"]))
+print("Ocena IMDB trzeciego filmu to: " + str(favMovies[2]["ocena"]))
+print("Krótki opis czwartego filmu to: " + favMovies[3]["opis"])
